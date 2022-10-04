@@ -22,7 +22,7 @@ class PrimeNumbers extends Component
 
     public function updatedTarget()
     {
-        $this->primes = [];
+        $this->primes = [0 => 2];
         $this->current = 1;
 
         while(count($this->primes) < $this->target){
